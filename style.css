@@ -6,6 +6,7 @@ body {
     row-gap: auto;
     
 }
+
 p {
     color:whitesmoke ;
     padding: .5em .75em;
@@ -19,6 +20,7 @@ p {
     justify-content: flex-end;
     grid-row: 1/2;
 }
+
 #appsicon{
     background-color: transparent;
     height: 30px;
@@ -32,32 +34,45 @@ p {
     flex-direction: row;
     justify-content: center;
     grid-row: 2/3;
-    justify-self: center;
+    justify-content: center;
     align-self: center;
     flex-wrap: wrap;
-    margin-top: 5cm;
+    margin:12%;
     }
+
+#searchcontainer{
+    border: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 #searchbar{
     background-color: transparent;
-    border-color: rgb(189, 189, 189);
-    flex-basis: 100%;
-    border-width: .2mm;
-    border-radius: 20px;
-    height: 30px;
-    margin: 1cm;
+    border: none;
+    height: 50px;
+    flex-basis: 90%;
 }
+
 .searchbutton{
     margin: 12px;
     padding: 5px 20px;
     font-size: 13pt;
     color: whitesmoke;
     height: 3em;
-    background-color: rgba(71, 71, 43, 0.096);
+    background-color: rgba(137, 137, 167, 0.192);
+    
     border-radius: 5px;
     border-width: 1px;
     border-color:black; 
-    box-shadow: 5px;
-    box-shadow: 
+    box-shadow: 5px;    
+}
 
-    ;
+#searchlogo{
+    width: 300px;
 }
